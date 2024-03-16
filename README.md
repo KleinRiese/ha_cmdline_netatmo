@@ -13,3 +13,4 @@ This simple script uses curl to get the data from your favourite station. To use
 5) Edit netatmo.sh and fill in "client ID", "client secret" and the "refresh token".
 6) Edit configuration.yaml and add "command_line: !include cmdline.yaml" (or add directly to your configuration)
 7) My example gets "rain_sum_24". Other values are possible, check the API: https://dev.netatmo.com/apidocumentation/weather
+8) Copy netatmo.sh to your installation
