@@ -1,6 +1,6 @@
 # Get weather data from your favourite netatmo station
 
-Netatmo has public weather stations and there is a plugin to integrate this data into the Home Assistant. Unfortunately, you can't specify an individual station when using public data, only an area.
+Netatmo has public weather stations and there is a plugin to integrate this data into Home Assistant. Unfortunately, you can't specify an individual station when using public data, only an area.
 
 An add-on is available, but you need to run hass.io to use it.
 
