@@ -1,0 +1,6 @@
+- sensor:
+    command: /config/netatmo.sh
+    name: Netatmo_Sum_Rain_24
+    scan_interval: 300
+    value_template: "{{ value_json.body.devices[0].modules[2].dashboard_data.sum_rain_24 }}"
+    unit_of_measurement: mm
